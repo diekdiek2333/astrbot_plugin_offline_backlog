@@ -1,0 +1,9 @@
+name: astrbot_plugin_offline_backlog
+display_name: 离线消息补回
+desc: "机器人关机/重启期间收到的 QQ 私聊和群聊消息，在重新上线后自动补回；可选在离线期间没人发消息时，主动发一句“终于上线了”的招呼。"
+help: "管理员可用 /backlog 查看将要补回的内容（干跑），/backlog send 立即补回；私聊/群聊目标和上线招呼名单都在插件配置里填写。"
+version: v1.0.0
+author: AstrBot Community
+repo: ""
+support_platforms:
+  - aiocqhttp
